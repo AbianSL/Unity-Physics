@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 69629636}
   m_Layer: 0
   m_Name: Cube 2
-  m_TagString: Untagged
+  m_TagString: ColorChanger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 1498163721}
   - component: {fileID: 1498163722}
   - component: {fileID: 1498163723}
+  - component: {fileID: 1498163724}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -608,6 +609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49cb848599e7d42a6be878aac92e99d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  force: 15
 --- !u!114 &1498163723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,6 +620,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cad88dd9bf593f0abbb47b1e418507a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+--- !u!114 &1498163724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498163716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff915f288aa018f32a67fbc3930c14fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1712993686
