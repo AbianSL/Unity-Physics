@@ -19,7 +19,7 @@
     - [Exercise 2:](#exercise-2)
     - [Exercise 3:](#exercise-3)
     - [Exercise 4:](#exercise-4)
-    - [Exercise 4:](#exercise-4-1)
+    - [Exercise 5:](#exercise-5)
 
 ## First part
 
@@ -105,8 +105,8 @@ In this exercise I created two zones, one that increase a public variable "damag
 
 In this exercise I created several cylinders that symbolize the collectionables items and the spheres that are the enemies. You can touch the enemies but if you touch the cylinders you go through them. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs), for debugging reason I made [this](Assets/Scenes/second%20part/scripts/CheckLayerCollision/Checker.cs) code. 
 
-### Exercise 4:
+### Exercise 5:
 
-![exercise4](gifs/exercise_4.gif)
+![exercise4](gifs/exercise_5.gif)
 
 In this exercise we can see the difference between different physic materials when we press the key X. The green sphere is bouncy, the red one is slippery and the black one is rough. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs) and if you want to see the materials check [here](Assets/Scenes/second%20part/physics%20material/).
