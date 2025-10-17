@@ -1,5 +1,26 @@
 # Practise Unity-Physics
 
+## Index
+
+- [Practise Unity-Physics](#practise-unity-physics)
+  - [Index](#index)
+  - [First part](#first-part)
+    - [Situation 1:](#situation-1)
+    - [Situation 2:](#situation-2)
+    - [Situation 3:](#situation-3)
+    - [Situation 4:](#situation-4)
+    - [Situation 5:](#situation-5)
+    - [Situation 6:](#situation-6)
+    - [Situation 7:](#situation-7)
+    - [Situation 8:](#situation-8)
+    - [Situation 9:](#situation-9)
+  - [Second part](#second-part)
+    - [Exercise 1:](#exercise-1)
+    - [Exercise 2:](#exercise-2)
+    - [Exercise 3:](#exercise-3)
+    - [Exercise 4:](#exercise-4)
+    - [Exercise 4:](#exercise-4-1)
+
 ## First part
 
 ### Situation 1:
@@ -56,3 +77,36 @@ is used to detect when other objects enter, exit, or stay within a defined area 
 ![situation9](gifs/situation_9.gif)
 
 In this case the sphere has trigger and rigidbody so it behave like a physical object but also detect when other objects enter, exit, or stay within a defined area without applying physical forces.
+
+## Second part
+
+### Exercise 1:
+
+![exercise1](gifs/exercise_1.gif)
+
+In this exercise I programm a code to make the cube move with the arrow keys or WASD keys. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs).
+
+
+### Exercise 2:
+
+![exercise2](gifs/exercise_2.gif)
+
+There's several cubes and spheres that are kinematic and when the player hit them they change their color. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs), [here](Assets/Scenes/second%20part/scripts/CollisionDetecter.cs). For debug reason I made the [this]
+
+### Exercise 3:
+
+![exercise3](gifs/exercise_3.gif)
+
+In this exercise I created two zones, one that increase a public variable "damage" and the second that change the color of the player only when it enter and exit the zone. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs), [here](Assets/Scenes/second%20part/scripts/Trigger/ChangeColor.cs) and [here](Assets/Scenes/second%20part/scripts/Trigger/MoreDamage.cs).
+
+### Exercise 4:
+
+![exercise4](gifs/exercise_4.gif)
+
+In this exercise I created several cylinders that symbolize the collectionables items and the spheres that are the enemies. You can touch the enemies but if you touch the cylinders you go through them. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs), for debugging reason I made [this](Assets/Scenes/second%20part/scripts/CheckLayerCollision/Checker.cs) code. 
+
+### Exercise 4:
+
+![exercise4](gifs/exercise_4.gif)
+
+In this exercise we can see the difference between different physic materials when we press the key X. The green sphere is bouncy, the red one is slippery and the black one is rough. See the code [here](Assets/Scenes/second%20part/scripts/Movement.cs) and if you want to see the materials check [here](Assets/Scenes/second%20part/physics%20material/).
